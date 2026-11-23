@@ -1,0 +1,28 @@
+# ==========================================
+# 1. Ignorar archivos del sistema y temporales
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+
+# ==========================================
+# 2. Ignorar datos pesados y modelos (¡CRUCIAL!)
+# ==========================================
+*.npy
+*.keras
+*.h5
+*.ckpt
+*.pt
+*.pth
+M_S2UResidual_IPSL_GFDL_CNRM/
+
+# ==========================================
+# 3. Ignorar entornos virtuales
+# ==========================================
+aurora_env/
+venv/
+env/
+aurora/
+*.ipynb
